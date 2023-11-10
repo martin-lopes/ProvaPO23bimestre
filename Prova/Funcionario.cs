@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.Remoting.Messaging;
 
 public class Funcionario
 {
@@ -26,12 +25,6 @@ public class Funcionario
 
     public Funcionario(string nome, string cpf, string matricula, DateTime datanasc, string sexo, double salario)
     {
-        Nome = nome;
-        Cpf = cpf;
-        Matricula = matricula;
-        Datanasc = datanasc;
-        Sexo = sexo;
-        Salario = salario;
         Nome = nome;
         Cpf = cpf;
         Matricula = matricula;

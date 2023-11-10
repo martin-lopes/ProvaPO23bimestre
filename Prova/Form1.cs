@@ -31,7 +31,10 @@ namespace Prova
             string sexo = tx_sexo.Text;
             double salario = Convert.ToDouble(tx_salario.Text);
 
-            Funcionario f = new Funcionario();
+            Funcionario f = new Funcionario(nome, cpf, matricula, datanasc, sexo, salario);
+
+
+
         }
     }
 }
