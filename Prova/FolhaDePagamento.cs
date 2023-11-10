@@ -37,8 +37,8 @@ public class FolhaDePagamento
     public double AuxilioPericulosidade(double salario)
     {
         double auxilio = 0.20;
-        salario = salario + (salario * auxilio);
-        return salario;
+        double salarioperic = salario + (salario * auxilio);
+        return salarioperic;
     }
     public double SalarioTransporte(double salario, double salariovale)
     {
@@ -48,7 +48,7 @@ public class FolhaDePagamento
 
     public double SalarioAlimentacao(double salario)
     {
-        salario = salario + (salario * 0.15);
+        double salarioali = salario + (salario * 0.15);
         return salario;
     }
 }
