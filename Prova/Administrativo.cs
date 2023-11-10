@@ -16,7 +16,7 @@ public class Administrativo : Funcionario
         Funcao = funcao;
     }
 
-    public double SalarioTransporte(double salario, double salariovale)
+    /*public double SalarioTransporte(double salario, double salariovale)
     {
         salariovale = salario + 150;
         return salariovale;
@@ -26,5 +26,5 @@ public class Administrativo : Funcionario
     {
         salario = salario + (salario * 0.15);
         return salario;
-    }
+    }*/
 }

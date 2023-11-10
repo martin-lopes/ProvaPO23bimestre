@@ -33,4 +33,22 @@ public class FolhaDePagamento
         double valorgastopag = 0.0;
         return valorgastopag;
     }
+
+    public double AuxilioPericulosidade(double salario)
+    {
+        double auxilio = 0.20;
+        salario = salario + (salario * auxilio);
+        return salario;
+    }
+    public double SalarioTransporte(double salario, double salariovale)
+    {
+        salariovale = salario + 150;
+        return salariovale;
+    }
+
+    public double SalarioAlimentacao(double salario)
+    {
+        salario = salario + (salario * 0.15);
+        return salario;
+    }
 }

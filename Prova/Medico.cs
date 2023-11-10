@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Médico : Funcionario
+public class Medico : Funcionario
 {
     private string crm;
     private double horaextra;
@@ -12,19 +12,19 @@ public class Médico : Funcionario
 
     public string Especialidade { get {  return especialidade; } set {  especialidade = value; } }
 
-    public Médico() { }
+    public Medico() { }
 
-    public Médico(string crm, double horaextra, string especialidade)
+    public Medico(string crm, double horaextra, string especialidade)
     {
         Crm = crm;
         Horaextra = horaextra;
         Especialidade = especialidade;
     }
 
-    public double AuxilioPericulosidade(double salario)
+    /*public double AuxilioPericulosidade(double salario)
     {
         double auxilio = 0.20;
         salario = salario + (salario * auxilio);
         return salario;
-    }
+    }*/
 }
