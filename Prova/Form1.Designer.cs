@@ -124,6 +124,7 @@
             // tx_cpf
             // 
             this.tx_cpf.Location = new System.Drawing.Point(47, 223);
+            this.tx_cpf.Mask = "000.000.000-00";
             this.tx_cpf.Name = "tx_cpf";
             this.tx_cpf.Size = new System.Drawing.Size(233, 20);
             this.tx_cpf.TabIndex = 8;
